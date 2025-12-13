@@ -1,0 +1,20 @@
+ACL2020 Media Bias Dataset - Download Instructions
+==================================================
+
+Download the dataset from:
+https://github.com/ramybaly/News-Media-Reliability/tree/master/data/acl2020
+
+Required files:
+1. corpus.tsv - Main dataset with article metadata and labels
+2. splits.json - Train/test split configuration
+3. features/ directory - Contains pre-computed BERT embeddings
+
+Place files in this directory (data/acl2020/) with the following structure:
+
+data/acl2020/
+├── corpus.tsv
+├── splits.json
+└── features/
+    └── articles_body_bert.json
+
+After placing the files, you can delete this PLACE_DATA_HERE.txt file.
